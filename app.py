@@ -9,4 +9,5 @@ model = pickle.load(open('model_lr.pkl','rb'))
 
 med_inc = st.number_input('Median Income')
 
-st.button('Predict')
+if st.button('Predict'):
+    st.write('Hello')
